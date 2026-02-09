@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'posts',
 
     # Third party apps
-    #'django_simple_deploy',
+    'django_simple_deploy',
 
     # Default django apps
     'django.contrib.admin',
