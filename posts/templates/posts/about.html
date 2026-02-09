@@ -1,0 +1,42 @@
+{% extends 'posts/base.html' %}
+
+{% block content %}
+
+  <h1>Hey, I'm Selina 👋</h1>
+  
+  <p>I'm a Python software developer 🐍, voracious reader 📚, and serial plant killer 🌱 (unrepentant!!)</p>
+
+  <p>This website is a new project and very much ~ under development ~ so please forgive the lack of styling and the spare content! I'm working on updating it! Check out the <a href="{% url 'posts:colophon' %}">Colophon</a> to see how and why it was built this way.</p>
+
+  <h2>I like to build projects that help others and myself, with a focus on trying to make the world a slightly better place.</h2>
+
+  <p>You can check out my <a href="{% url 'posts:projects' %}">Projects</a> and what I'm working on right <a href="{% url 'posts:now' %}">Now</a>.</p>
+
+  <h2>Besides programming I care deeply about:</h2>
+
+  <p>Books, education, children's welfare, and public service.</p>
+
+  <p>I help run a book club, and I've volunteered at, and regularly financially contribute to, my local food bank, where many of the recipients of food are children.</p>
+
+  <h2>In the realm of software development, I value:</h2>
+  
+  <p>A free and independent web, open source software, software sustainability, de-enshittification, privacy-forward companies, employee-first not customer-first companies, autonomy, curiosity, kindness, and experimentation.</p>
+
+  <h2>Some people I am inspired by who embody these values:</h2>
+  <p>Simon Willison (<a href="https://simonwillison.net/">simonwillison.net</a>), because I'm awed not only by his skill and speed but by his commitment to open sourcing <i>how he works</i>too</p>
+  <p>Cory Doctorow (<a href="https://pluralistic.net/">pluralistic.net</a>), for his depth of knowledge and moral clarity</p>
+  <p>Timnit Gebru (<a href="https://www.dair-institute.org/team/timnit-gebru/work/">DAIR Institute</a>), for her bravery and commitment to justice</p>
+  <p>The incredible women of Women Coding Community, from whom I have learned so much</p>
+
+  <h2>I'm currently terribly excited by:</h2>
+  <p>The wonderful world of hardware. Namely, <a href='https://www.youtube.com/watch?v=UygK5W3txTM'>microcontrollers</a> and <a href='https://eli.pizza/posts/eink-weather-display-for-kids/'>e-ink displays<a/>!</p>
+
+  <h2>When I'm not at a keyboard, you can find me:</h2>
+  <p>Reading, doing all manner of nature sports, and travelling near and far.</p>
+
+  <h2>I'm always down to talk about:</h2>
+  <p>Tooling, Python, and how we can come together to build the world we want to live in.</p>
+
+
+{% endblock content %}
+

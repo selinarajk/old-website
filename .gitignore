@@ -1,0 +1,5 @@
+.gitignore env/
+__pycache__/
+*.sqlite3
+.DS_Store
+dsd_logs/
